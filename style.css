@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    margin-top: 80px;
+}
+
+nav {
+    background-color: #4D9BF6;
+    display:flex;
+    justify-content: space-around;
+    height: 75px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+nav div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.separator {
+    background-color: #4D9BF6;
+    height: 10px;
+}
