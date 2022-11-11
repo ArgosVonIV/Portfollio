@@ -33,5 +33,19 @@ nav a:hover {
 
 .separator {
     background-color: #4D9BF6;
-    height: 10px;
+    height: 30px;
 }
+
+.titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2% 15% 5% 15%;
+}
+
