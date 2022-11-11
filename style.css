@@ -6,7 +6,7 @@ body {
 nav {
     background-color: #4D9BF6;
     display:flex;
-    justify-content: space-around;
+    justify-content: nowrap;
     height: 75px;
     width: 100%;
     top: 0;
@@ -15,10 +15,20 @@ nav {
     font-weight: bold;
 }
 
-nav div {
+nav a { 
+    width:25%;
+    text-decoration: none;
+    color: black;
+}
+
+nav a div {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+nav a:hover {
+    background-color: #3771b4;
 }
 
 .separator {
