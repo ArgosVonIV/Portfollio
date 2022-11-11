@@ -49,3 +49,9 @@ nav a:hover {
     padding: 2% 15% 5% 15%;
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #509df4
+}
